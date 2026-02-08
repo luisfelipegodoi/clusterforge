@@ -15,7 +15,7 @@ func NewExecRuntime(kubeContext string, timeoutSeconds int) *ExecRuntime {
 		timeoutSec:  timeoutSeconds,
 	}
 
-	r.k = KubectlExec(kubeContext, timeoutSeconds)
+	r.k = NewKubectlExec(kubeContext, timeoutSeconds)
 	r.h = NewHelmExec(kubeContext, timeoutSeconds)
 	r.l = NewStdLogger()
 
