@@ -1,3 +1,3 @@
 module github.com/luisfelipegodoi/clusterforge
 
-go 1.24.1
+go 1.25.7
