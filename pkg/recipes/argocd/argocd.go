@@ -1,6 +1,6 @@
 package argocd
 
-import "clusterforge/pkg/steps"
+import "github.com/luisfelipegodoi/clusterforge/pkg/steps"
 
 type Options struct {
 	Namespace      string

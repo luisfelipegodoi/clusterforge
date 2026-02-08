@@ -1,10 +1,11 @@
 package steps
 
 import (
-	"clusterforge/pkg/runtime"
 	"context"
 	"fmt"
 	"time"
+
+	"github.com/luisfelipegodoi/clusterforge/pkg/runtime"
 )
 
 type Step interface {

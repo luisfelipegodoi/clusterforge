@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"clusterforge/pkg/runtime"
+	"github.com/luisfelipegodoi/clusterforge/pkg/runtime"
 )
 
 type HelmUpgradeInstall struct {

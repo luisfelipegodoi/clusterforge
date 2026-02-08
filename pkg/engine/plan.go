@@ -1,6 +1,6 @@
 package engine
 
-import "clusterforge/pkg/steps"
+import "github.com/luisfelipegodoi/clusterforge/pkg/steps"
 
 type ClusterPlan struct {
 	ClusterName string
