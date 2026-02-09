@@ -4,7 +4,7 @@ import "github.com/luisfelipegodoi/clusterforge/pkg/steps"
 
 type Options struct {
 	Namespace      string
-	ManifestPath   string
+	ChartPath      string
 	WaitTimeoutSec int
 }
 
