@@ -20,7 +20,7 @@ func Recipe(opts Options) []steps.Step {
 
 	return []steps.Step{
 		steps.EnsureNamespace{Namespace: ns},
-		steps.KubectlApply{Namespace: ns, Path: opts.ManifestPath},
+		steps.KubectlApply{Namespace: ns, Path: opts.ChartPath},
 
 		// espera os principais pods ficarem Ready
 		steps.WaitPodsReady{Namespace: ns, Selector: "app.kubernetes.io/name=localstack-server", TimeoutSeconds: timeout},
